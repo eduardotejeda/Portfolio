@@ -2,10 +2,10 @@
 
 Portfolio to showcasess my problem solving skillset and code skill.
 
-Structure:
+##Structure:
 
-Home
-About me
-Portfolio
-Contact
-Footer
+1.Home
+2.About me
+3.Portfolio
+4.Contact
+5.Footer
