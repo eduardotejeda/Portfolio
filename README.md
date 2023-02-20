@@ -2,7 +2,7 @@
 
 Portfolio to showcasess my problem solving skillset and code skill.
 
-##Structure:
+## Structure:
 
 1. Home
 2. About me
