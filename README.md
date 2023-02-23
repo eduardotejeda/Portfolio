@@ -16,7 +16,7 @@ Portfolio to showcasess my problem solving skillset and code skill.
 
 Needs to be a hamburger menu style inside a bubble-shape. Here are some good examples: [Hamburger](https://alvarotrigo.com/blog/hamburger-menu-css/).
 
-# Color palette
+## Color palette
 
 [Palette](https://colorhunt.co/palette/f6f7c1bef0cbd1fff3c1aefc)
 
