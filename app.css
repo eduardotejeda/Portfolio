@@ -1,22 +1,17 @@
 * {
     margin: 0;
     padding: 0;
-    /* outline: 1px solid red; */
+    outline: 1px solid red; 
 }
 
-h1, nav {
-    font-family: 'Roboto', sans-serif;
-    
-}
-
-header {
-  display: block;
-  margin-top: 80px;
-}
 
 body {
+  font-family: 'Roboto', sans-serif;
   background-color: #BEF0CB;
 }
+
+
+/* Navbar  */
 
 #menu-bar {
     width: 45px;
@@ -136,4 +131,52 @@ body {
     width: 520px;
     height: 460px;
     transform: translate(-60%,-20%);
+  }
+
+  /* Header */
+
+  header {
+    display: block;
+    margin-top: 80px;
+    height: 300px;
+  }
+
+  h1 {
+    padding-top: 100px;
+  }
+
+  /* Portfolio */
+
+  .portfolio {
+    background-color: #C1AEFC;
+    height: 640px;
+   }
+
+  #wave2 {
+    background-color: #C1AEFC;
+  }
+
+  /* Contact */
+
+  .contact {
+height: 150px;
+
+
+  }
+  
+
+  /* Footer magic */
+
+  footer {
+    height: 120px;
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    /* 
+    display:table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; */
+    
   }
