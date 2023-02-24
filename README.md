@@ -24,3 +24,7 @@ F6F7C1
 BEF0CB
 D1FFF3
 C1AEFC
+
+## Version 0
+
+![Who is going:](https://github.com/eduardotejeda/Portfolio/blob/main/portfolio_index%20v0.png)
