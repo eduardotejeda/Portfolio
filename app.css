@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* outline: 1px solid red;  */
+    outline: 1px solid red; 
 }
 
 
@@ -9,6 +9,8 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #BEF0CB;
 }
+
+
 
 
 /* Navbar  */
@@ -116,7 +118,7 @@ body {
     width: 0;
     height: 0;
     margin: 30px 0 20px 20px;
-    background: radial-gradient(circle, #C1AEFC, #C1AEFC);
+    background: radial-gradient(circle, #d9cef8, #C1AEFC);
     border-radius: 50%;
     transition: 0.3s ease;
   }
@@ -150,13 +152,37 @@ body {
   /* Header */
 
   header {
-    display: block;
+    display: grid;
     margin-top: 80px;
     height: 300px;
+    grid-template-columns: 20% 30% 30% 20%;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    
   }
 
   h1 {
     padding-top: 100px;
+    
+  }
+
+  .portrait {
+    display: inline;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+   
+  }
+  
+  .portraittext {
+    display: inline;
+    
+   
+  }
+
+  .portraittext2 {
+    
   }
 
   /* Portfolio */
