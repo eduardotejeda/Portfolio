@@ -218,20 +218,35 @@ body {
 
   .portfoliogrid {
     display: grid;
-    gap: 1.5rem;
-    
-    padding-block: 2rem;
-    
+    gap: 20px;
     background-color: #C1AEFC;
-    margin-inline: auto;
+    /* padding-block: 2rem; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+    
+    /* margin-inline: auto; */
   }
-
-  @media (min-width: 50em) {
-    .portfoliogrid {
-    grid-template-columns: repeat(3, 1fr);
-    width: min(80%, 60rem);
+ 
+  @media (max-width: 1260px) {
+     .portfoliogrid {    
+      display: grid;
+    gap: 20px;
+    background-color: #C1AEFC;
+    place-items: center; 
+      grid-template-columns: repeat(2, 1fr);
   }
 }
+
+
+
+ @media (max-width: 625px) {
+  .portfoliogrid {   
+    grid-template-columns: repeat(1, 1fr); 
+  
+}
+}  
 
   .portfoliogrid > div {
     background-color: rgb(255, 255, 255);
