@@ -18,6 +18,7 @@ Needs to be a hamburger menu style inside a bubble-shape. Here are some good exa
 
 ## Color palette
 
+![Palette](https://github.com/eduardotejeda/Portfolio/blob/main/Color%20Hunt%20Palette.png?raw=true)
 [Palette](https://colorhunt.co/palette/f6f7c1bef0cbd1fff3c1aefc)
 
 F6F7C1
