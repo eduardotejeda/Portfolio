@@ -16,7 +16,15 @@ body {
   display:block;
   width: 80%;
   margin: 0 auto;
+  padding-bottom: 5%;
 }
+
+@media (max-width: 643px) {
+  .desktopimg {   
+    display: none;
+  
+}
+}  
 
 
 /* Navbar  */
@@ -159,17 +167,33 @@ body {
 
   header {
     display: grid;
-    margin-top: 80px;
+    /* margin-top: 80px;
     height: 300px;
     grid-template-columns: 20% 30% 30% 20%;
     flex-wrap: wrap;
     align-content: center;
-    align-items: center;
+    align-items: center; */
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     
   }
 
+  @media (max-width: 1607px) {
+    header {   
+      grid-template-columns: repeat(1, 1fr); 
+    
+  }
+  .portraittext {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+  }
+
+
+  }  
+
   h1 {
-    padding-top: 100px;
+    /* padding-top: 100px; */
     
   }
 
@@ -179,17 +203,39 @@ body {
     width: 350px;
     height: 350px;
     box-shadow: 10px 5px 5px rgb(163, 210, 182);
+    margin-bottom: 10%;
    
   }
+
+  @media (max-width: 643px) {
+    .portrait {   
+      margin-top: 10%;
+      margin-bottom: 10%;
+    
+  }
+
+  .portraittext {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+  }
+
+
+  } 
+
+
   
   .portraittext {
-    display: inline;
+    /* display: inline; */
+    
     
    
   }
 
   .portraittext2 {
-    
+    width: 100%;
+    display: block;
+
   }
 
   @keyframes background-pan {
@@ -223,32 +269,34 @@ body {
     background-color: #C1AEFC;
   }
 
+  .portfolio {
+    display: none;
+  }
+
   .portfoliogrid {
     display: grid;
     gap: 20px;
     background-color: #C1AEFC;
-    /* padding-block: 2rem; */
-    /* grid-template-columns: repeat(2, 1fr); */
     place-items: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-bottom: 5%;
+     
     
-    
-    /* margin-inline: auto; */
   }
  
-  @media (max-width: 1260px) {
+  @media (max-width: 1435px) {
      .portfoliogrid {    
       display: grid;
-    gap: 20px;
-    background-color: #C1AEFC;
-    place-items: center; 
-      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      background-color: #C1AEFC;
+      place-items: center center; 
+       grid-template-columns: repeat(2, 1fr);
   }
 }
 
 
 
- @media (max-width: 625px) {
+ @media (max-width: 695px) {
   .portfoliogrid {   
     grid-template-columns: repeat(1, 1fr); 
   
