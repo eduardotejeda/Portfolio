@@ -10,7 +10,13 @@ body {
   background-color: #BEF0CB;
 }
 
+/* Desktop img */
 
+.desktopimg {
+  display:block;
+  width: 80%;
+  margin: 0 auto;
+}
 
 
 /* Navbar  */
@@ -172,6 +178,7 @@ body {
     border-radius: 50%;
     width: 350px;
     height: 350px;
+    box-shadow: 10px 5px 5px rgb(163, 210, 182);
    
   }
   
