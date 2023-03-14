@@ -287,8 +287,12 @@ body {
     background-color: #C1AEFC;
     place-items: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding-bottom: 5%;
-     
+    padding-bottom: 5%;     
+    
+  }
+
+  .portfoliogrid > div {
+    border-radius: 15%;
     
   }
  
