@@ -167,12 +167,6 @@ body {
 
   header {
     display: grid;
-    /* margin-top: 80px;
-    height: 300px;
-    grid-template-columns: 20% 30% 30% 20%;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center; */
     place-items: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     
@@ -187,6 +181,11 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
+  }
+
+  .socialmedia {
+     
+        text-align: center;
   }
 
 
@@ -220,6 +219,8 @@ body {
     text-align: center;
   }
 
+  
+
 
   } 
 
@@ -237,6 +238,13 @@ body {
     display: block;
 
   }
+
+  .socialmedia {
+/*     
+    text-align: center; */
+    padding-top: 10px;
+    
+    }
 
   @keyframes background-pan {
     from {
@@ -279,8 +287,12 @@ body {
     background-color: #C1AEFC;
     place-items: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding-bottom: 5%;
-     
+    padding-bottom: 5%;     
+    
+  }
+
+  .portfoliogrid > div {
+    border-radius: 15%;
     
   }
  
@@ -328,11 +340,6 @@ height: 150px;
     margin-top: 3%;
     display: flex;
     justify-content: space-around;
-    /* 
-    display:table;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto; */
     
   }
 
