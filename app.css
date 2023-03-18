@@ -291,6 +291,12 @@ body {
     
   }
 
+  .portfoliogrid > div > img {
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+  }
+
   .portfoliogrid > div {
     border-radius: 15%;
     
