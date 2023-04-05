@@ -269,17 +269,21 @@ body {
 
   /* Portfolio */
 
-  .portfolio {
+  .projects {
     background-color: #C1AEFC;
+    text-align: center;
+    padding-bottom: 3%;
  }
+
+ 
 
   #wave2 {
     background-color: #C1AEFC;
   }
 
-  .portfolio {
+  /* .portfolio {
     display: none;
-  }
+  } */
 
   .portfoliogrid {
     display: grid;
@@ -305,7 +309,7 @@ body {
   @media (max-width: 1435px) {
      .portfoliogrid {    
       display: grid;
-      gap: 20px;
+      gap: 40px;
       background-color: #C1AEFC;
       place-items: center center; 
        grid-template-columns: repeat(2, 1fr);
@@ -332,9 +336,12 @@ body {
   /* Contact */
 
   .contact {
-height: 150px;
+  text-align: center;
+  padding-bottom: 10px;
+  }
 
-
+  .email {
+    text-align: center;
   }
   
 
@@ -349,4 +356,7 @@ height: 150px;
     
   }
 
+  .tags {
+    text-align: center;
+  }
   
