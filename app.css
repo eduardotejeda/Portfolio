@@ -188,6 +188,10 @@ body {
         text-align: center;
   }
 
+  .tags {
+    
+  }
+
 
   }  
 
@@ -309,7 +313,7 @@ body {
   @media (max-width: 1435px) {
      .portfoliogrid {    
       display: grid;
-      gap: 40px;
+      gap: 64px;
       background-color: #C1AEFC;
       place-items: center center; 
        grid-template-columns: repeat(2, 1fr);
