@@ -30,3 +30,7 @@ C1AEFC
 ## Version 0
 
 ![Who is going:](https://github.com/eduardotejeda/Portfolio/blob/main/portfolio_index%20v0.png)
+
+## Version 1
+
+![Who is going:](https://github.com/eduardotejeda/Portfolio/blob/portfolioA/eduardotejeda.com.png?raw=true)
