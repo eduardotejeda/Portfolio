@@ -2,7 +2,7 @@
 
 Portfolio to showcasess my problem solving skillset and code skill.
 
-Demo:![Live demo](https://eduardotejeda.com/)
+[Live demo](https://eduardotejeda.com/)
 
 ## Structure:
 
