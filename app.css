@@ -283,6 +283,7 @@ body {
 
   #wave2 {
     background-color: #C1AEFC;
+    
   }
 
   /* .portfolio {
@@ -318,6 +319,10 @@ body {
       place-items: center center; 
        grid-template-columns: repeat(2, 1fr);
   }
+
+  #wave2 {
+    padding-top: 10%;
+   }
 }
 
 
@@ -328,6 +333,10 @@ body {
     gap: 120px; 
   
 }
+
+ #wave2 {
+  padding-top: 15%;
+ }
 }  
 
   .portfoliogrid > div {
@@ -362,6 +371,10 @@ body {
   }
 
   .tags {
+    text-align: center;
+  }
+
+  .copyright {
     text-align: center;
   }
   
