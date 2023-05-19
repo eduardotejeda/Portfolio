@@ -283,6 +283,7 @@ body {
 
   #wave2 {
     background-color: #C1AEFC;
+    
   }
 
   /* .portfolio {
@@ -313,20 +314,29 @@ body {
   @media (max-width: 1435px) {
      .portfoliogrid {    
       display: grid;
-      gap: 64px;
+      gap: 97px;
       background-color: #C1AEFC;
       place-items: center center; 
        grid-template-columns: repeat(2, 1fr);
   }
+
+  #wave2 {
+    padding-top: 10%;
+   }
 }
 
 
 
  @media (max-width: 695px) {
   .portfoliogrid {   
-    grid-template-columns: repeat(1, 1fr); 
+    grid-template-columns: repeat(1, 1fr);
+    gap: 120px; 
   
 }
+
+ #wave2 {
+  padding-top: 15%;
+ }
 }  
 
   .portfoliogrid > div {
@@ -361,6 +371,10 @@ body {
   }
 
   .tags {
+    text-align: center;
+  }
+
+  .copyright {
     text-align: center;
   }
   
